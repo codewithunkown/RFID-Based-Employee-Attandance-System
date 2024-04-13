@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "startup.o" "delay_ms.o" "lcd_4bit_driver.o" "uart0_driver.o" "uart1_driver.o" "i2c_driver.o" "uart1_interrupt.o" "main2.o" --strict --scatter "Attendance_system.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Attendance_system.map" -o "Attendance_system.axf"

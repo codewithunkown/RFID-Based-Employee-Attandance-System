@@ -1,0 +1,26 @@
+*** Creating Trace Output File 'Attendance_system.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"delay_ms.o"'
+### List of Objects: adding '"lcd_4bit_driver.o"'
+### List of Objects: adding '"uart0_driver.o"'
+### List of Objects: adding '"uart1_driver.o"'
+### List of Objects: adding '"i2c_driver.o"'
+### List of Objects: adding '"uart1_interrupt.o"'
+### List of Objects: adding '"main2.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "delay_ms.o" "lcd_4bit_driver.o" "uart0_driver.o" "uart1_driver.o" "i2c_driver.o" "uart1_interrupt.o" "main2.o" --strict --scatter "Attendance_system.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Attendance_system.map" -o "Attendance_system.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'Attendance_system.axf'
+### ADS-LD Command File: 'Attendance_system.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'Attendance_system.lnp', Handle=0x0000037C
+### Writing '.lnp' file
+### ADS-LD Command file 'Attendance_system.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
